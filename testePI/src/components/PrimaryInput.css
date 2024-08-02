@@ -1,0 +1,76 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    font: koHo ;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    text-decoration-color:#4B8D52 ;
+  }
+  
+  
+  .top-login-menu {
+      width: 100%; /* Altere de 100vw para 100% */
+      text-align: start;
+      background-color: #FFFFF7;
+      height: 80px;
+      font-size: 40px;
+      padding-left: 20px;
+      font:bold  ;
+    }
+    
+  .container {
+    height: calc(100vh - 80px); /* Subtrai a altura do menu superior */
+    width: 100%; /* Altere de 100vw para 100% */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container form {
+    padding: 32px 24px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #FFFFF7;
+    border-radius: 24px;
+}
+
+.container form .names-form-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.container form label {
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+  color: black;
+  display: block;
+}
+  
+  .container form .names-form-container div {
+    margin-right: 20px;
+  }
+  
+  .container form button {
+    margin-top: 15px;
+    width: 10vw;
+  }
+
+  .Checkbox{
+    color: red;
+    font-size: 5px;
+  }
+
+  .CheckboxContainer{
+    display: flex;
+    align-items: center;
+    
+  }
+  
